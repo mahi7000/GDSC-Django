@@ -1,8 +1,5 @@
-num = 0
-
-while (num < 100):
-    if (num == 99):
-        print("{}".format(num), end='\n')
+for i in range(0, 100):
+    if (i == 99):
+        print("{}".format(i), end='\n')
     else:
-        print("{},".format(num), end=' ')
-    num += 1
+        print("{},".format(i), end=' ')
