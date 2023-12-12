@@ -1,4 +1,4 @@
-from math_operations import basic_operations, power_operation
+from math_operations import basic_operations, power_operation, apply_operations
 
 # Test basic_operations
 result_basic = basic_operations(10, 5)

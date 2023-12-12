@@ -28,7 +28,7 @@ try:
 except ValueError:
     print("Please input only numbers")
 
-# def apply_operations(operation_list):
-#     results = list(map(lambda operation: apply_operation(*operation), operation_list))
+def apply_operations(operation_list):
+    results = list(map(lambda x: x[0](*x[1]), operation_list))
     
-#     return results
+    return results
